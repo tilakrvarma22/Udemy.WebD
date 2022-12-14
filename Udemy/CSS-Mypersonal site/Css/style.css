@@ -1,0 +1,40 @@
+body{
+    background-color:#EAF6F6;
+    font-family:'Manrope', sans-serif;;
+}
+h1{
+    color:#472183;
+}
+h3{
+color: #4B56D2;
+}
+h3{
+
+}
+hr{border: 1px dotted rgb(193, 193, 193);
+    border-width: 5px;
+    border-top: 3px;
+    width: 5%;
+}
+
+h4
+{
+    color:#54abe1;
+}
+td,th,tr{
+    padding: 5px;
+    margin: 5px;
+}
+a{
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+a:hover{
+    color:#0718d3;
+}
+.link{
+    text-align: center;
+}
