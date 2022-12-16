@@ -1,0 +1,18 @@
+body{
+    font-family: 'Sarabun', sans-serif;
+    margin:60px 60px;
+}
+.main{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+}
+select{
+    font-size: 20px;
+}
+input,button{
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+}

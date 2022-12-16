@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+    <script>   
+    function preferedBrowser() 
+    {
+    prefer = document.forms[0].Network.value;
+    alert("YOU PREFER BROWSER: " + prefer);
+    }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="java.css">
+</head>
+<body onload="window.alert('PAGE SUCCESSFULLY LOADED');">
+    <h1 onmouseover="style.color='#332fd0'" onmouseout="style.color='#00005c'">FEEDBACK FORM</h1>
+    <h4>PLEASE FILL IN THE WEBSITE INFORMATION</h4>
+    <hr>
+    <div class="main">
+    <h4>1.RATE WEBSITE ACCORDING YOUR EXPERIENCE: </h4>
+    <input type="radio" name="TEXT" id="EXCEPTIONAL">EXCEPTIONAL
+    <br>
+    <input type="radio" name="TEXT" id="VERY GOOD">VERY GOOD
+    <br>
+    <input type="radio" name="TEXT" id="GOOD">GOOD
+    <br>
+    <input type="radio" name="TEXT" id="WEAK">WEAK
+    <br>
+    <input type="radio" name="TEXT" id="UNACCEPTABLE">UNACCEPTABLE
+    <form>
+       <h4>2.HOW DID YOU HEAR ABOUT THIS WEBSITE?</h4>
+          <select id="Network" onchange="preferedBrowser()">
+            <option value="SOCIAL MEDIA">SOCIAL MEDIA</option>
+            <option value="SEARCH ENGINE">SEARCH ENGINE</option>
+            <option value="ADVERTISING">ADVERTISING</option>
+            <option value="FRIEND">FRIEND</option>
+            <option value="OTHER">OTHER</option>
+          </select>
+        </form>
+    <h4>3.WHICH COURSE DID YOU LIKE THE MOST?</h4>
+    <input type="radio" name="DEXKTOP/LAPTOP" id="DEXKTOP/LAPTOP">DIGITAL MARKETING
+    <br>
+    <input type="radio" name="DEXKTOP/LAPTOP" id="DEXKTOP/LAPTOP">WEB DESIGN
+    <br>
+    <input type="radio" name="DEXKTOP/LAPTOP" id="DEXKTOP/LAPTOP">WEB DEVELOPMENT
+    <br>
+    <br>
+</div>
+
+<div class="button">
+    <button type="submit" target="_Blank">SUBMIT</button>
+  </div>
+  </body>
+</html>
