@@ -1,0 +1,49 @@
+a{text-decoration: none;
+color:wheat}
+#contain,footer
+{
+    padding-top: 5%;
+    padding-bottom:5%;
+    text-align: center;
+}
+a:hover
+{
+    color:grey;
+}
+.row img
+{
+  width:25%;
+  padding:2%;
+}
+.container .row
+{
+    margin-top: 10%;
+    padding-bottom:10%;
+}
+#top-title
+{
+    padding: 2%;
+}
+#top{
+    padding: 10%;
+}
+
+.testi-text
+{
+    font-size: 2rem;
+    padding: 2%;
+}
+.testi-image img
+{
+    width:75%;
+}
+.testi-image
+{
+    padding:2%;
+    text-align: center;
+}
+
+#testimonials
+{
+padding:5%;
+}

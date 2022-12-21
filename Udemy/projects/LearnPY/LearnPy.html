@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnPy</title>   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<style>
+    a{text-decoration: none;
+        color:wheat}
+        #contain,footer
+        {
+            padding-top: 5%;
+            padding-bottom:5%;
+            text-align: center;
+        }
+        a:hover
+        {
+            color:grey;
+        }
+        .row img
+        {
+          width:25%;
+          padding:2%;
+        }
+        .container .row
+        {
+            margin-top: 10%;
+            padding-bottom:10%;
+        }
+        #top-title
+        {
+            padding: 2%;
+        }
+        #top{
+            padding: 10%;
+        }
+        
+        .testi-text
+        {
+            font-size: 2rem;
+            padding: 2%;
+        }
+        .testi-image img
+        {
+            width:75%;
+        }
+        .testi-image
+        {
+            padding:2%;
+            text-align: center;
+        }
+        
+        #testimonials
+        {
+        padding:5%;
+        }
+</style>
+<body>
+    <!-- title -->
+    <section id="title" class="bg-black text-light">
+
+        <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+
+        <a href="#" class="navbar-brand fs-3">LearnPy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ms-auto fs-5">
+                <li class="navbar-item"><a href="#" class="nav-link">Contact</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Product</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">Reviews</a></li>
+                <li class="navbar-item"><a href="#" class="nav-link">About</a></li>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </ul>
+        </div>
+    </nav>
+    <!-- Top-section -->
+            
+            <div class="row">    
+                
+                <img class="rounded col-md-3" src="data:image/png;base64,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" alt="">
+                
+                <div class="col-md-9" id="top-title">
+                    
+                    <h1 class="fw-bold">LearnPy</h1>
+                    <h4 class="fs-4 fw-light">Freemium Educational Website for Learning Python</h4>
+                    <h4 class="fs-4 fw-light">Beginner To Advanced</h4>
+                    <br>
+                    <button class="btn btn-outline-light btn-lg" value="button">Explore</button>
+                
+                </div>
+            
+            </div>
+        </div>
+    </section>
+ 
+    <section id="testimonials">
+
+        <div class="row">
+            
+            <div class="testi-text col-lg-6 col-md-9">
+            
+                <p>"I was really pleased ith the quality of the course, as well as the administration.
+                     I look forward to attending another.Excellent course - very clear.
+                    The course has helped provide a starting point for understanding programming in Python, which certainly will prove useful in my current work/projects"</p>
+        
+            </div>
+            <div class="testi-image col-lg-6 col-md-3">
+            
+                <img src="images/user.jpg" alt="">
+                <h2>Andrew Anderson</h2>
+                <p>&#11088;&#11088;&#11088;&#11088;&#11088;</p>
+            
+            </div>
+        </div>
+    </section> 
+
+    <section id="About" class="text-light bg-dark">
+        <div class="container" id="contain">        
+        <h3 class="fs-1 fw-normal">About</h3>
+        <br>
+        <div class="fs-3">
+            <a class="mx-3" href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a>
+            <a class="mx-3" href="https://www.instagram.com/">Instagram</a>
+            <a class="mx-3" href="https://www.youtube.com/">Youtube</a>
+            <a class="mx-3" href="https://www.facebook.com/">FaceBook</a>
+        </div>
+        <br>
+        <p class="fs-4 fw-thinner">This is first website as front-end developer</p>
+    </div>
+    </section> 
+    <footer>
+            <p class="fs-4">© 2022 Tilak Varma @XenoWing</p> 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
